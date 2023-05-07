@@ -13,14 +13,12 @@ namespace FlightBooking
         public static List<Flight> BookingList=new List<Flight>();
         public static void Booking()
         {
-            
             for(int i=0;i<2;i++)
             {
+                //for booking process
                 Flight obj=new Flight(5000);
                 FlightList.Add(obj);
             }
-
-            
         }
 
         public static void Looping()
