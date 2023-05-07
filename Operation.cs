@@ -91,7 +91,7 @@ namespace FlightBooking
                 flight.AvailableSeats-=count;
                 Flight book=new Flight(flight.FlightId,totalPrice,count);
                 BookingList.Add(book);
-                Console.WriteLine("Ticket Booked Successfully");
+                Console.WriteLine("Ticket Booked Successfully...!");
             }
             else
             {
