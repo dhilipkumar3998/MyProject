@@ -5,11 +5,14 @@ using System.Threading.Tasks;
 
 namespace FlightBooking
 {
+    /// <summary>
+    /// Operation class is used to add all functionality
+    /// </summary>
     public static class Operation
     {
         public static Flight CurrentUser;
         public static List<Flight> FlightList = new List<Flight>();
-
+        
         public static List<Flight> BookingList=new List<Flight>();
         public static void Booking()
         {
@@ -28,7 +31,7 @@ namespace FlightBooking
             bool run=true;
             while(run)
             {
-                Console.WriteLine("1. Book 2. Cancel 3. Available tickets 4. Booking History 5. Exit");
+                Console.WriteLine("1. Book 2. Cancel 3. Available Tickets 4. Booking History 5. Exit..");
                 Console.Write("Enter the choice : ");
                 int choice=int.Parse(Console.ReadLine());
                 switch(choice)
