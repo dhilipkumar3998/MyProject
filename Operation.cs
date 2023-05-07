@@ -5,11 +5,14 @@ using System.Threading.Tasks;
 
 namespace FlightBooking
 {
+    /// <summary>
+    /// Operation class is used to add all functionality
+    /// </summary>
     public static class Operation
     {
         public static Flight CurrentUser;
         public static List<Flight> FlightList = new List<Flight>();
-
+        
         public static List<Flight> BookingList=new List<Flight>();
         public static void Booking()
         {
